@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Environnement
+.env
+
+# Dossiers de compilation
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# IDEs et éditeurs
+.vscode/
+.idea/
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Resource
+PostgreSQL.txt
+curl.txt
