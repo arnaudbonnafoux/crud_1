@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>Mon Application CRUD</title>
     <!-- Lien vers Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -10,7 +14,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="mt-4">Gestion des Auteurs</h1>
+        <h1 class="mt-4">Gestion des Aliens</h1>
     
         <form id="auteurForm" class="mt-4">
             <div class="form-row">
@@ -23,15 +27,15 @@
                     <input type="email" class="form-control" id="email" placeholder="Entrez l'email" required>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Ajouter Auteur</button>
+            <button type="submit" class="btn btn-primary">Ajouter Alien</button>
         </form>
 
-        <h2 class="mt-4">Liste des Auteurs</h2>
+        <h2 class="mt-4">Liste des Aliens</h2>
         <div class="row" id="auteurList">
             <!-- Les auteurs seront ajoutés ici dynamiquement -->
         </div>
 
-        <h2 class="mt-4">Mettre à jour un Auteur</h2>
+        <h2 class="mt-4">Mettre à jour un Alien</h2>
         <form id="updateForm" class="mt-4" style="display: none;">
             <input type="hidden" id="updateId"> <!-- Pour stocker l'ID de l'auteur à mettre à jour -->
             <div class="form-group">
