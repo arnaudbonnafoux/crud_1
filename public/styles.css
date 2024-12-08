@@ -2,12 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-image: url('ufo.png');
-    background-size: cover; 
+    background-size: auto;
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
-    /*background-position: center;*/
-    background-attachment: fixed;
 }
-
 h1 {
     color: #333;
 }
